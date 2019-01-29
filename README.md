@@ -5,9 +5,9 @@
 全文有点长，假如只对一家公司感兴趣的话可以直接跳过去：
 
 * [准备过程](#准备过程)
-* [PingCAP](#pingcap)
-* [蚂蚁](#蚂蚁)
-* [头条](#头条)
+* [面试: PingCAP](#pingcap)
+* [面试: 蚂蚁](#蚂蚁)
+* [面试: 头条](#头条)
 * [总结](#总结)
 
 # 准备过程
@@ -68,7 +68,7 @@ PingCAP 的简历响应是最快的，内推之后第二天 HR 小姐姐就联�
 
 > K8S 容器化之后应用容器里几乎没有什么可用的调试工具，可以利用容器 Namespace 共享的思路，启动一个包含各种调试工具（比如 netstat, gdb）的容器，加入到 pod 的 pid、net 等 namespace 中， 实现对任意 pod 的 debug 功能。现在希望利用 kubectl plugin 机制实现一个插件，用于 debug 任意一个 pod 里的容器，达到 `kubectl exec` 的使用体验.
 
-当时因为工作日抽不出时间，就隔了几天到周五晚上开始写，周六晚上写完并且把[项目地址](https://github.com/aylei/kubectl-debug) 分享到了 [Reddit 上](https://www.reddit.com/r/devops/comments/a8vnt5/i_wrote_a_tool_to_debug_kubernetes_pods_more/)。没想到运气不错收了 100 多个 star，这下我就觉得"哦豁，这轮应该稳了吧！"（结果后来发现这几乎是我唯一一把觉得自己"稳了的"面试...)
+当时因为工作日抽不出时间，就隔了几天到周五晚上开始写，周六晚上写完并且把 [项目地址](https://github.com/aylei/kubectl-debug) 分享到了 [Reddit 上](https://www.reddit.com/r/devops/comments/a8vnt5/i_wrote_a_tool_to_debug_kubernetes_pods_more/)。没想到运气不错收了 100 多个 star，这下我就觉得"哦豁，这轮应该稳了吧！"（结果后来发现这几乎是我唯一一把觉得自己"稳了的"面试...)
 
 ## 二面
 
@@ -93,7 +93,7 @@ PingCAP 的简历响应是最快的，内推之后第二天 HR 小姐姐就联�
 - goroutine 和 kernel thread 之间是什么关系？
 - 有什么想问我的？
 
-面完之后感觉可能要挂，结果第二天 HR 小姐姐就来安排三面了，长舒一口气：运气还可以哈。
+面完之后感觉答得一般，心里有点忐忑。结果第二天 HR 小姐姐就来安排三面了，长舒了一口气。
 
 ## 三面
 
@@ -157,8 +157,8 @@ PingCAP 的简历响应是最快的，内推之后第二天 HR 小姐姐就联�
 * [三面](#三面-1)
 * [四面](#四面-1)
 * [五面](#五面-1)
-* [六面（HR）](#六面-0)
-* [小结](#小结-0)
+* [六面（HR）](#六面)
+* [小结](#小结)
 
 ## 面试前
 
