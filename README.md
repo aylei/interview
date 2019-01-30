@@ -512,3 +512,5 @@ HR 面，之前就听说过阿里系的 HR 是来"闻味道的"（看你是否�
 * [Golang for range 的坑](https://studygolang.com/articles/9701) 有两轮面试都涉及到了这个话题，这里贴一下；
 
 (全文完)
+
+[*License under CC-BY-4.0: 署名-非商业使用-禁止演绎*](https://creativecommons.org/licenses/by/4.0/deed.zh)
