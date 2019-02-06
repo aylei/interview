@@ -425,7 +425,7 @@ HR 面，之前就**听说**过阿里系的 HR 是来"闻味道的"（看你是�
 - 查 A in () AND B in () 时, MySQL 是怎么利用索引的?
     - 先走一个非聚簇索引，查询出行数据后再用另一列回表做筛选
 - 假如查询 A in (), MySQL 是针对 N 个值分别查一次索引, 还是有更好的操作?
-    - 不知道，有了解的同学可以留言
+    - 不知道，有了解的同学可以留言 (补充, [@BillyLu]() 贴出了文档 [equality-range-optimization](https://dev.mysql.com/doc/refman/8.0/en/range-optimization.html#equality-range-optimization), 大意是对非唯一索引 MySQL 会使用 index dive 的方式估算这个 range index 涉及的行数, 结合[where optimization](https://dev.mysql.com/doc/refman/5.7/en/where-optimization.html) 中说明的在走 index 时假如涉及行数过多会走 full table scan, 那么假如 estimation 认为这次 IN 不够好, 是会走全表扫描的. 不知道除此之外, 面试官还有没有想考察的点)
 - 用过 Redis 的哪几种数据结构? (都用过) ZSET 是怎么实现的?
     - 跳表
 - zrange start, stop, 总长度为 n, 复杂度是多少?
@@ -512,7 +512,7 @@ HR 面，之前就**听说**过阿里系的 HR 是来"闻味道的"（看你是�
 * 算法相关，这部分我纯鶸，说实话我觉得大学里那本教材《数据结构与算法分析》就写得很不错...至于 leetcode，面试前没有刷过，最近为了练习 Rust 刷了60多题，并没有碰到面试里出现过的题目，看起来要刷 leetcode 的话就得走量多刷点，刷的少纯拼强运了；
 * [Golang for range 的坑](https://studygolang.com/articles/9701) 有两轮面试都涉及到了这个话题，这里贴一下；
 
-这篇面经的热度完全超出了我的预期，非常感谢大家的 star 鼓励！
+repo 关闭了 issue 功能, 您可以在 [我的博客](https://aylei.github.io/blog/interview-experience/) 中进行相关讨论(不过目前 heading anchor 还没加上, 阅读体验不如 github 的 md), 也可以直接通过我的邮箱(见 profile)进行交流, 感谢您耐心地看完全文!
 
 (全文完)
 
