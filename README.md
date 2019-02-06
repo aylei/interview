@@ -425,7 +425,7 @@ HR 面，之前就**听说**过阿里系的 HR 是来"闻味道的"（看你是�
 - 查 A in () AND B in () 时, MySQL 是怎么利用索引的?
     - 先走一个非聚簇索引，查询出行数据后再用另一列回表做筛选
 - 假如查询 A in (), MySQL 是针对 N 个值分别查一次索引, 还是有更好的操作?
-    - 不知道，有了解的同学可以留言 (补充, [@BillyLu]() 贴出了文档 [equality-range-optimization](https://dev.mysql.com/doc/refman/8.0/en/range-optimization.html#equality-range-optimization), 大意是对非唯一索引 MySQL 会使用 index dive 的方式估算这个 range index 涉及的行数, 结合[where optimization](https://dev.mysql.com/doc/refman/5.7/en/where-optimization.html) 中说明的在走 index 时假如涉及行数过多会走 full table scan, 那么假如 estimation 认为这次 IN 不够好, 是会走全表扫描的. 不知道除此之外, 面试官还有没有想考察的点)
+    - 不知道，有了解的同学可以留言 (补充, [@BillyLu](https://github.com/BillyLu) 贴出了文档 [equality-range-optimization](https://dev.mysql.com/doc/refman/8.0/en/range-optimization.html#equality-range-optimization), 大意是对非唯一索引 MySQL 会使用 index dive 的方式估算这个 range index 涉及的行数, 结合[where optimization](https://dev.mysql.com/doc/refman/5.7/en/where-optimization.html) 中说明的在走 index 时假如涉及行数过多会走 full table scan, 那么假如 estimation 认为这次 IN 不够好, 是会走全表扫描的. 不知道除此之外, 面试官还有没有想考察的点)
 - 用过 Redis 的哪几种数据结构? (都用过) ZSET 是怎么实现的?
     - 跳表
 - zrange start, stop, 总长度为 n, 复杂度是多少?
