@@ -516,7 +516,7 @@ repo 关闭了 issue 功能, 您可以在 [我的博客](https://aylei.github.io
 
 **补充**
 
-笔者最后去了 PingCAP, 原因也很简单, **大公司的想去总是随时有机会去的, 而登上 Rocketship 的机会可不多**
+笔者最后去了 PingCAP, 原因也很简单, **大公司想去总是能找到机会去的, 而登上 Rocketship 的机会可不多**
 
 这里也打个广告, 假如想一起来搞 [TiDB](https://github.com/pingcap/tidb), 欢迎发送简历到 wuyelei@pingcap.com, 我帮您内推😆(多嘴提一个邮件礼仪的小建议: 标题一定要写清楚😂)
 
