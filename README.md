@@ -514,6 +514,12 @@ HR 面，之前就**听说**过阿里系的 HR 是来"闻味道的"（看你是�
 
 repo 关闭了 issue 功能, 您可以在 [我的博客](https://aylei.github.io/blog/interview-experience/) 中进行相关讨论(不过目前 heading anchor 还没加上, 阅读体验不如 github 的 md), 也可以直接通过我的邮箱(见 profile)进行交流, 感谢您耐心地看完全文!
 
+**补充**
+
+笔者最后去了 PingCAP, 原因也很简单, **大公司的想去总是随时有机会去的, 而登上 Rocketship 的机会可不多**
+
+这里也打个广告, 假如想一起来搞 [TiDB](https://github.com/pingcap/tidb), 欢迎发送简历到 wuyelei@pingcap.com, 我帮您内推😆(多嘴提一个邮件礼仪的小建议: 标题一定要写清楚😂)
+
 (全文完)
 
 [*License under CC BY-NC-ND 4.0: 署名-非商业使用-禁止演绎*](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh)
