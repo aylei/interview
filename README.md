@@ -518,7 +518,9 @@ repo 关闭了 issue 功能, 您可以在 [我的博客](https://aylei.github.io
 
 笔者最后去了 PingCAP, 原因也很简单, **大公司想去总是能找到机会去的, 而登上 Rocketship 的机会可不多**
 
-这里也打个广告, 假如想一起来搞 [TiDB](https://github.com/pingcap/tidb), 欢迎发送简历到 wuyelei@pingcap.com, 我帮您内推😆(多嘴提一个邮件礼仪的小建议: 标题一定要写清楚😂)
+这里也打个广告, 假如想一起来搞 [TiDB](https://github.com/pingcap/tidb), 欢迎发送简历到 wuyelei@pingcap.com, 我帮您内推😆(多嘴提一个邮件礼仪的小建议: 标题一定要写清楚😂), 这里是 [相关JD](https://www.pingcap.com/recruit-cn/engineering/bizdev-cloud-engineer/)
+
+另外, 蚂蚁的 Kubernetes 调度部门也在招人(社招校招都有), Leader 是我一个很靠谱的学长, 大家可以直接发送简历到 tongkai.ytk@antfin.com 内推. [相关 JD](./docs/antfin_k8s_jd.md)
 
 (全文完)
 
